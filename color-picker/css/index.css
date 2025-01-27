@@ -3,7 +3,7 @@ body, ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: Arial, sans-serif;
+    font-family: "math";
 }
 
 .navbar {
@@ -22,18 +22,19 @@ body, ul {
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: #333;
 }
 
 .nav-links {
     display: flex;
-    gap: 20px;
-}
+    gap: 30px;
+    margin-left: 25px;
+}   
 
 .nav-links li {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .nav-links a {
@@ -44,6 +45,9 @@ body, ul {
 
 .nav-links a:hover {
     color: #000; /* Darker color on hover */
+}
+span{
+    color:crimson
 }
 
 .navbar-buttons button {
@@ -56,8 +60,46 @@ body, ul {
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-right: 10px;
+    width: 80px;
 }
 
 .navbar-buttons button:hover {
     background-color: #555; /* Slightly lighter on hover */
+}
+.main-section{
+    text-align: center;
+    color: #333;
+}
+.txt-1{
+    color: #555;
+    font-size: 1.5rem;
+}
+.h1-txt{
+    font-size: 3rem;
+    font-weight: bold;
+   
+}
+
+.color-picker {
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 80px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    
+}
+
+
+.color-input{
+    border: none;
+   
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.5) /* Subtle shadow */;
+    border-radius: 25px;
+    width: 500px;
+    padding: 15px 30px;
+    border: 1px
+    
 }
