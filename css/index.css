@@ -1,9 +1,13 @@
 /* General Reset */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body, ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: "math";
+    font-family: "Rubik";
 }
 
 .navbar {
@@ -103,27 +107,3 @@ span{
     
 }
 
-/* member section css */
-.team-members{
-    text-align: center;
-    margin-top: 5rem;
-    font-size: 3rem;
-    font-weight: bold;
-    height: 100%;
-    padding: 12px;
-    background-color: rgb(107, 107, 107);
-    
-}
-.members-ul{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 12px;
-    
-}
-.member-list{
-    font-size: 1.5rem;
-    font-family: cursive;
-}
