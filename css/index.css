@@ -3,7 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-body, ul {
+body,
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -15,8 +16,10 @@ body, ul {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #f9f9f9; /* Light background color */
-    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.3) /* Subtle shadow */
+    background-color: #f9f9f9;
+    /* Light background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3)
+        /* Subtle shadow */
 }
 
 .left-section {
@@ -35,7 +38,7 @@ body, ul {
     display: flex;
     gap: 30px;
     margin-left: 25px;
-}   
+}
 
 .nav-links li {
     font-size: 20px;
@@ -48,10 +51,12 @@ body, ul {
 }
 
 .nav-links a:hover {
-    color: #000; /* Darker color on hover */
+    color: #000;
+    /* Darker color on hover */
 }
-span{
-    color:crimson
+
+span {
+    color: crimson
 }
 
 .navbar-buttons button {
@@ -59,7 +64,8 @@ span{
     font-size: 14px;
     font-weight: bold;
     color: #fff;
-    background-color: #333; /* Dark button */
+    background-color: #333;
+    /* Dark button */
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -69,41 +75,77 @@ span{
 }
 
 .navbar-buttons button:hover {
-    background-color: #555; /* Slightly lighter on hover */
+    background-color: #555;
+    /* Slightly lighter on hover */
 }
-.main-section{
+
+.main-section {
     text-align: center;
     color: #333;
 }
-.txt-1{
+
+.txt-1 {
     color: #555;
     font-size: 1.5rem;
 }
-.h1-txt{
+
+.h1-txt {
     font-size: 3rem;
     font-weight: bold;
-   
+
 }
 
+
+/* Color Picker Box */
+.color-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 30px;
+    padding: 5px 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    width: 250px;
+    border: 2px solid #ccc;
+    position: relative;
+}
+
+/* Color Picker */
 .color-picker {
-    border: none;
     width: 30px;
     height: 30px;
-    cursor: pointer;
-    border-radius: 80px;
-    outline: none;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-    
-}
-
-
-.color-input{
+    border-radius: 50%;
     border: none;
-    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.5) /* Subtle shadow */;
-    border-radius: 25px;
-    width: 500px;
-    padding: 15px 30px;
-    border: 1px
-    
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
 }
 
+/* Input Field */
+.color-input {
+    width: 100%;
+    height: 40px;
+    padding-left: 50px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+/* Cards Container */
+.container-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-inline: auto;
+}
+
+.card {
+    height: 100px;
+    background: gray;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
