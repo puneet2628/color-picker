@@ -103,3 +103,18 @@ span{
     border: 1px
     
 }
+
+/* member section css */
+.team-members{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.members-ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
