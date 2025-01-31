@@ -10,6 +10,12 @@ ul {
     list-style: none;
     font-family: "Rubik";
 }
+body.light {
+    background-color: #f9f9f9;;
+}
+body.dark {
+    background-color: #000;
+}
 
 .navbar {
     display: flex;
@@ -73,6 +79,7 @@ span {
     margin-right: 10px;
     width: 80px;
 }
+
 
 .navbar-buttons button:hover {
     background-color: #555;
@@ -148,4 +155,12 @@ span {
     background: gray;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#btn{
+    padding: 0px 20px;
+    
+}
+.navbar-buttons{
+    align-items: center;
 }

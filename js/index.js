@@ -12,3 +12,12 @@ colorInput.addEventListener("input", () => {
         colorPicker.value = colorInput.value;
     }
 }); 
+
+// ------------dark/light mode----------------
+
+document.body.classList.add("light");
+document.getElementById('btn').addEventListener('click',() => {
+    document.body.classList.toggle('dark');
+    document.body.classList.toggle('light');
+    //document.getElementById('btn').textContent = document.body.classList.contains('dark') ? 'Light Mode' : 'Dark Mode';
+});
